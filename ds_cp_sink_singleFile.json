@@ -1,0 +1,33 @@
+{
+    "name": "ds_cp_sink_singleFile",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "subbu_SQL_LS",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "p_tableName": {
+                "type": "string"
+            },
+            "p_schemaname": {
+                "type": "string"
+            }
+        },
+        "folder": {
+            "name": "single file"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [],
+        "typeProperties": {
+            "schema": {
+                "value": "@dataset().p_schemaname",
+                "type": "Expression"
+            },
+            "table": {
+                "value": "@dataset().p_tableName",
+                "type": "Expression"
+            }
+        }
+    }
+}

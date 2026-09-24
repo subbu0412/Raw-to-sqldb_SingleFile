@@ -1,0 +1,6 @@
+selected resource name:		bronze to sql SingleFile
+selected resource type:		pipeline
+factory name:			Subbu-df
+factory location:		eastus
+subscription id:		bdd27863-0ba6-41dd-9eb8-7564897c616e
+time of download (UTC):		Thu, 24 Sep 2026 11:46:06 GMT
